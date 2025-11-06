@@ -22,6 +22,6 @@ st.session_state['df'] = df
 
 st.navigation([
 	st.Page("pages/1_vitrine.py", title="Vitrine", icon="🐉"),
-	st.Page("pages/2_dashboard.py", title="Dashboard de Análise", icon="📊")
 ]).run()
+
 
